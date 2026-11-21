@@ -1,0 +1,8 @@
+<resources>
+    <!-- Swipe-to-dismiss is off so that a swipe right counts as an arrow. Exit with the Back button. -->
+    <style name="Theme.Drill" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
